@@ -8,7 +8,7 @@ import { SubmitHandler, useForm } from "react-hook-form";
 const ShippingForm = ({
   setShippingForm,
 }: {
-  setShippinigForm: (data: ShippingFormInputs) => void;
+  setShippingForm: (data: ShippingFormInputs) => void;
 }) => {
   const {
     register,
